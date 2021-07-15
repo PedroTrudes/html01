@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- estamos declarando qula é a linguagem da nossa pagina para o navegador -->
+<html lang="pt-br">
+
+<head>
+    <!-- UTF-8 para o site poder entender algumas letras-->
+    <meta charset="UTF-8">
+
+    <title>Index</title>
+
+    <!-- aqui estamos importando o css de outro lugar-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- tag de cabeçalho -->
+    <header>
+        <h1 class="tituloPrincipal">Estudio de Tatuagem</h1>
+    </header>
+    <!-- tag de imagem fora da div para parecer um banner-->
+    <img src="./src/banner02.jpg" alt="Imagens de tatuagem feminina" id="banner">
+
+    <!-- aqui começamos a dividir o nosso codigo -->
+    <div class="principal">
+        <!-- h2 para usar um subtitulo-->
+        <h2 class="tituloCentralizado">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+        <!-- tag p para paragrafo -->
+        <p> 
+            Lorem ipsum, dolor sit <strong>amet consectetur adipisicing elit. Eum accusamus illum minus modi, unde praesentium temporibus dolorem,</strong> excepturi incidunt at doloremque, ad et eligendi! Aspernatur eaque necessitatibus officia consequatur ad?
+        </p>
+        <!-- como eu queria um estilo diferente nesse componente então usei o ID-->
+        <p id="missao">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis libero repellat non perspiciatis ut, officia quis voluptates quaerat quibusdam deleniti repudiandae rerum voluptas alias enim eos suscipit? Sequi, distinctio nesciunt.
+        </p>
+        <!-- tag Strong para deixar em negrito, Tag em para deixar o texto em italico -->
+        <p>
+            Lorem ipsum dolor <em> sit, amet <strong> consectetur adipisicing elit. Quasi repellat in assumenda. Asperiores</strong> tenetur itaque optio,</em> dicta laborum eos molestiae, aliquid beatae quis consequuntur commodi facilis eaque at reprehenderit tempore.
+        </p>
+    </div>
+
+    <!-- Foi usado mais uma Div para dividir o nosso codigo como uma segunda parte, para poder estilizar
+    melhor o conteudo do site-->
+    <div class="beneficios">
+        <h3 class="tituloCentralizado">beneficios</h3>
+
+        <!-- UL para uma lista não ordenada -->
+        <ul>
+            <!-- LI para linhas dessa lista nao ordenada -->
+            <li class="itens">Atendimento aos clientes</li> 
+            <li class="itens">Espaço diferenciado</li> 
+            <li class="itens">Localização</li>
+            <li class="itens">Proficionais Qualificados</li> 
+        </ul> 
+        
+        <!-- aqui a imagem esta dentro da div beneficios pois queremos estilizar o conteudo dentro da div-->
+        <img src="./src/banner03.jpg" alt="tatuagem no peito" class="imagemBeneficio">
+    </div>
+
+</body>
+
+</html>
