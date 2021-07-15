@@ -1,15 +1,34 @@
 body{
-    margin: none;
-    padding: none;
     background: whitesmoke;
 }
 
 header {
     background: #fff;
+    padding: 20px 0;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+}
+
+.caixa {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 150px;
 }
 
 nav li{
     display: inline;
+    margin: 0 0 0 15px;
 
 }
 
@@ -19,4 +38,5 @@ nav a {
     color: #000000;
     font-weight: bold;
     font-size: 21px;
+
 }
