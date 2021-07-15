@@ -1,0 +1,22 @@
+body{
+    margin: none;
+    padding: none;
+    background: whitesmoke;
+}
+
+header {
+    background: #fff;
+}
+
+nav li{
+    display: inline;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 21px;
+}
