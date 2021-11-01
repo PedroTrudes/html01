@@ -1,0 +1,113 @@
+body{
+    background: whitesmoke;
+}
+
+header {
+    background: #fff;
+    padding: 20px 0;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+}
+
+.caixa {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 150px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 21px;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background-color: #fff;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid #000000;
+}
+
+.produtos li:hover{
+    border-radius: 15px;
+}
+
+.produtos li:active{
+    border: 2px dotted;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+    transition: 1s;
+}
+
+.produtos h2{
+    font-size: 25px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+#product{
+    height: 150px;
+    width: 150px;
+    padding-top: 5px;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+    padding: 80px 0;
+    background: #fff;
+}
+
+footer p {
+    font-size: 30px;
+}
