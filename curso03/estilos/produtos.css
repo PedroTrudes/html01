@@ -38,12 +38,13 @@ nav a {
     color: #000000;
     font-weight: bold;
     font-size: 21px;
+    transition: 1.5s;
 
 }
 
 nav a:hover{
-    text-decoration: underline;
-    color: bisque;
+    color: #86000B;
+    transition: 1s;
 }
 
 .produtos{
@@ -61,13 +62,12 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 10px;
     border: 2px solid #000000;
 }
 
 .produtos li:hover{
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 .produtos li:active{
@@ -75,7 +75,7 @@ nav a:hover{
 }
 
 .produtos li:hover h2 {
-    font-size: 34px;
+    font-size: 27px;
     transition: 1s;
 }
 
@@ -105,7 +105,7 @@ footer {
     text-align: center;
     height: 100px;
     padding: 80px 0;
-    background: #fff;
+    background: rgb(66, 66, 66);
 }
 
 footer p {

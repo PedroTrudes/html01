@@ -61,13 +61,13 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 5px;
     border: 2px solid #000000;
+    transition: 1.5s;
 }
 
 .produtos li:hover{
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .produtos li:active{
@@ -75,8 +75,8 @@ nav a:hover{
 }
 
 .produtos li:hover h2 {
-    font-size: 34px;
-    transition: 1s;
+    font-size: 27px;
+    transition: 2s;
 }
 
 .produtos h2{

@@ -1,0 +1,106 @@
+header {
+    background: #fff;
+    padding: 20px 0;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+}
+
+.caixa {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 150px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 21px;
+    transition: 1.5s;
+
+}
+
+nav a:hover{
+    color: #86000B;
+    transition: 1s;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.form {
+    margin: 40px 0px;
+}
+
+.form label, .form p {
+    display: block;
+    font-size: 20px;
+    font-style: bold;
+    margin: 0 0 10px;
+}
+
+.form textarea {
+    display: block;
+    margin: 0 0 20px;
+    text-align: center;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    text-align: center;
+    padding: 10px 20px;
+    width: 50%;
+
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+
+
+
+footer {
+    text-align: center;
+    height: 200px;
+    padding: 80px 0;
+    background: #181C1F;
+}
+
+footer p {
+    padding-top: 100px;
+    font-size: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 1s;
+}
+
+footer p:hover {
+    color: gold;
+    font-size: 35px;
+    transition: 1.5s;
+}
+

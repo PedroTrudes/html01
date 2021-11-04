@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/contatos.css" />
+    <link rel="stylesheet" href="estilos/reset.css" />
+    <title>Contatos</title>
+  </head>
+  <body>
+    <header>
+      <div class="caixa">
+        <h1><img src="./src/logo01.jpg" alt="Logo do site" id="logo" /></h1>
+
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="produtos.html">Produtos</a>
+            </li>
+            <li>
+              <a href="contatos.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <form class="form">
+        <label for="nome-sobrenome">Nome e Sobrenome</label>
+        <input type="text" id="nome-sobrenome" class="input-padrao" />
+
+        <label for="email">Email</label>
+        <input type="text" id="email" class="input-padrao" />
+
+        <label for="tell">Telefone</label>
+        <input type="text" id="tell" class="input-padrao" />
+
+        <label for="msg">Mensagem</label>
+        <textarea id="msg" cols="65" rows="10"></textarea>
+
+        <div>
+          <p>Como prefere o nosso contato?</p>
+          <label for="radio-email">
+            <input
+              type="radio"
+              name="contato"
+              id="radio-email"
+              value="email"
+            />Email</label
+          >
+
+          <label for="radio-tell"
+            ><input
+              type="radio"
+              name="contato"
+              id="radio-tell"
+              value="tellefone"
+            />Telefone</label
+          >
+
+          <label for="radio-whatsapp">
+            <input
+              type="radio"
+              name="contato"
+              id="radio-whatsapp"
+              value="whatsapp"
+            />Whatsapp</label
+          >
+        </div>
+
+        <div>
+          <p>Qual horario para ser atendido?</p>
+          <select name="" id="">
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+          </select>
+        </div>
+
+        <label
+          ><input type="checkbox" class="checkbox" /> Gostaria de receber as
+          novidades por email?</label
+        >
+
+        <input type="submit" value="Enviar Formulario" />
+      </form>
+    </main>
+
+    <footer>
+      <!--<img src="#" alt="logo"> -->
+      <p>&copy; Criado por Pedro Trudes</p>
+    </footer>
+  </body>
+</html>
