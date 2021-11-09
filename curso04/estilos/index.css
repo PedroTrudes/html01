@@ -147,6 +147,17 @@ ul {
 .imagemBeneficio {
   width: 50%;
   height: 300px;
+  opacity: 1;
+  transition: 1s;
+  cursor: pointer;
+  box-shadow: 10px 10px 5px #000000;
+}
+
+.imagemBeneficio:hover {
+    opacity: 60%;    
+    width: 55%;
+    height: 315px;
+    border-radius: 30px;  
 }
 
 .video {
@@ -163,7 +174,7 @@ footer {
   background: #181c1f;
 }
 
-footer p {
+footer > p {
   padding-top: 100px;
   font-size: 30px;
   color: #ffffff;
