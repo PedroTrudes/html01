@@ -103,11 +103,49 @@ nav a:hover{
 
 footer {
     text-align: center;
-    height: 100px;
-    padding: 80px 0;
-    background: rgb(66, 66, 66);
+    height: 200px;
+    background: #181C1F;
 }
 
 footer p {
+    padding-top: 100px;
     font-size: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 1s;
+}
+
+footer p:hover {
+    color: gold;
+    font-size: 35px;
+    transition: 1.5s;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa , .produtos {
+        width: auto;
+    }
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .produtos {
+        display: block;
+        padding: 0px;
+    }
+
+    .produtos li {
+        display: block;
+        width: auto;
+        margin: 30px 25px;
+
+    }
+    footer p {
+        font-size: 15px;
+      }
+      footer p:hover{
+        font-size: 20px;
+      }
+    
 }

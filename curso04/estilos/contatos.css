@@ -99,22 +99,7 @@ main {
 
 }
 
-table {
-    margin: 20px 40px;
-}
 
-
-
-thead{
-    background-color: #555555;
-    color: #fff;
-    font-weight: bold;
-}
-
-table td ,thead th{
-    border: 1px solid #000000;
-    padding: 15px 8px;
-}
 
 footer {
     text-align: center;
@@ -137,3 +122,40 @@ footer p:hover {
     transition: 1.5s;
 }
 
+
+@media screen and (max-width: 480px){
+    .caixa, .form {
+        width: auto;
+    }
+    nav{
+        position: static;
+        text-align: center;
+    }
+    
+    .form label {
+        margin-left: 20px;
+    }
+    .input-padrao {
+        width: auto;
+        margin-left: 20px;
+        
+    }
+    .form textarea {
+        width: 100%;
+    }
+
+    .enviar {
+        margin-left: 10px;
+    }
+
+    .enviar:hover {
+        transform: none;
+    }
+    footer p {
+        font-size: 15px;
+      }
+      footer p:hover{
+        font-size: 20px;
+      }
+    
+}
